@@ -8,12 +8,20 @@ import PastryContainer from "./components/PastryContainer";
 import NewCakeContainer from "./components/NewCakeContainer";
 import ItemContainer from "./components/ItemContainer";
 import UserContainer from "./components/UserContainer";
+import PostContainer from "./components/PostContainer";
+import PostContainerNew from "./components/PostContainerNew";
 
 const App = () => {
   return (
     <Provider store={store}>
       <div>
-        <UserContainer />
+        <PostContainerNew />
+        <hr />
+        {/* <PostContainer /> */}
+        <hr />
+        {/* <UserContainer /> */}
+        <hr />
+
         {/* <CakeContainer />
         <HooksCakeContainer />
         <NewCakeContainer />

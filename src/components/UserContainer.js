@@ -14,7 +14,7 @@ const UserContainer = ({ userData, fetchUsers }) => {
     <div>
       <h2>User List</h2>
       <div>
-        {console.log(userData.users)}
+        {/* {console.log(userData)} */}
         {userData &&
           userData.users &&
           userData.users.map((user) => <p>{user.name}</p>)}
